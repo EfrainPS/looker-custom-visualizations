@@ -1,0 +1,33 @@
+{
+  "name": "custom-vis-react-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Template for developing a Looker custom visualization with React",
+  "main": "src/customVis.js",
+  "scripts": {
+    "start": "webpack serve --https",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.24.0",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/runtime": "^7.24.0",
+    "anychart": "^8.12.0",
+    "chart.js": "^3.8.0",
+    "d3": "^7.8.5",
+    "jquery": "^3.6.0",
+    "regenerator-runtime": "^0.14.1",
+    "sunburst-chart": "^1.19.2"
+  }
+}
