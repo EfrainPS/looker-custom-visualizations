@@ -1,3 +1,4 @@
+//this sunburst is an adapted library. You need generate the module and added to node_module folder from this repositorie https://github.com/EfrainPS/sunburst-chart-js
 import Sunburst from 'sunburst-chart';
 import * as d3 from 'd3'
 
